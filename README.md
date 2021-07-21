@@ -1,5 +1,7 @@
 # Arduino_ESP
+
 ## IDE installieren
+
 1. Über arduino.cc downloaden.
 2. Zip entpacken.
 3. Im neuen Arduino-Verzeichnis das Unterverzeichnis »portable« anlegen.
@@ -13,3 +15,13 @@
 > *********** Please Reboot your system ************
 
 7. Rebooten
+
+## IDE einrichten
+
+1. Datei → Voreinstellungen → Zusätzliche Bordverwalter-URLs → Symbol rechts vom Eingabefeld:
+```
+https://dl.espressif.com/dl/package_esp32_index.json
+http://arduino.esp8266.com/stable/package_esp8266com_index.json
+
+```
+2. 
