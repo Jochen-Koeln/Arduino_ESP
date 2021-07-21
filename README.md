@@ -18,6 +18,8 @@
 
 ## IDE einrichten
 
+### Einstellungen
+
 1. Datei → Voreinstellungen
 2. Im Feld »Zusätzliche Bordverwalter-URLs« eingeben: `https://dl.espressif.com/dl/package_esp32_index.json,http://arduino.esp8266.com/stable/package_esp8266com_index.json`
 3. ☑ Zeilennummern anzeigen 
@@ -27,3 +29,27 @@
 7. ☑ Code-Faltung aktivieren
 8. ☐ Externen Editor verwenden
 9. ☑ Speichern beim Überprüfen oder Hochladen
+10. »ok« klicken
+
+### Bordverwaltung
+
+1. Werkzeuge → Board: "XXX" → Boardverwalter
+2. Suchen nach »esp«
+3. »esp32« (by Espressif Systems) installieren
+4. »esp8266« (by ESP8266 Community) installieren
+5. »schließen« klicken
+
+### Python ergänzen
+
+1. `sudo apt install python2.7`
+2. `sudo apt install python2.7`
+3. `pip install pyserial`
+
+### ESP8266 testen
+
+#### Beispiel alter Wemos D1 mini
+1. Modul anschließen
+2. Werkzeuge → Board: "XXX" → ESP8266 Boards → LOLIN(WeMos) D1 R1
+3. Werkzeuge → Port: wählen
+4. Datei → Beispiele → ESP8266WiFi → WiFiScan
+5. Sketch → Hochladen
