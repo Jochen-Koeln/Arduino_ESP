@@ -5,7 +5,11 @@
 3. Im neuen Arduino-Verzeichnis das Unterverzeichnis »portable« anlegen.
 4. Im neuen Arduino-Verzeichnis ein Terminal öffnen.
 5. Datei »./arduino-linux-setup.sh $USER« ausführen.
+
 > ******* Add User to dialout,tty, uucp, plugdev groups *******
+
 > ******* Removing modem manager *******
+
 > *********** Please Reboot your system ************
-6. Rebooten
+
+7. Rebooten
