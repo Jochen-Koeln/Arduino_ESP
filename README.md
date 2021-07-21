@@ -44,6 +44,9 @@
 1. `sudo apt install python2.7`
 2. `sudo apt install python2.7`
 3. `pip install pyserial`
+4. `sudo apt install python3-pip`
+5. `pip3 install pyserial`
+
 
 ### ESP8266 testen
 
