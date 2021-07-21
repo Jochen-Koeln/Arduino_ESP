@@ -18,10 +18,5 @@
 
 ## IDE einrichten
 
-1. Datei → Voreinstellungen → Zusätzliche Bordverwalter-URLs → Symbol rechts vom Eingabefeld:
-```
-https://dl.espressif.com/dl/package_esp32_index.json
-http://arduino.esp8266.com/stable/package_esp8266com_index.json
-
-```
-2. 
+1. Datei → Voreinstellungen
+2. Im Feld »Zusätzliche Bordverwalter-URLs« eingeben: `https://dl.espressif.com/dl/package_esp32_index.json,http://arduino.esp8266.com/stable/package_esp8266com_index.json`
